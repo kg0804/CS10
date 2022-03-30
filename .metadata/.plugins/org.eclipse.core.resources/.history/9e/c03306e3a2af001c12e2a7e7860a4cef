@@ -1,0 +1,6 @@
+public class 
+Credit3{
+  public static Credit3 (String[] args) {
+    System.out.println("Hello World");
+  }
+}
