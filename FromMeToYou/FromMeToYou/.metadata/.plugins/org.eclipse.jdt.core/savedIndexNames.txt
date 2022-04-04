@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\Users\904212004\git\CS10\FromMeToYou\FromMeToYou\.metadata\.plugins\org.eclipse.jdt.core

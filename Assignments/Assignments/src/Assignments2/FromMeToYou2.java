@@ -1,22 +1,10 @@
-/*
-
-Program: ${}.java          Date: ${}
-
-
-Author: Karan Gill
-School: Crescent Heights High School
-Course: Computer Science 10
- 
-
-*/
-
-
+package Assignments2;
 public class FromMeToYou2
 {
 
 	public static void main(String[] args)
 	{
-	System.out.println("Karan Gill 03/30/2022");
+	System.out.println("Karan Gill 03/30/2022\n");
 	    
 	System.out.println("From:Mr.Wilson");
 	System.out.println("Address: Acer Computer, Lab 314");
@@ -30,9 +18,3 @@ public class FromMeToYou2
 } 
 
 
-/* Screen Dump
-
-
-
-
- */
