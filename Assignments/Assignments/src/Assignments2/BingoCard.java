@@ -4,7 +4,7 @@ public class BingoCard
 
 	public static void main(String[] args)
 	{
-		System.out.println("Karan Gill 03/30/2022 \n");
+		System.out.println("Karan Gill 03/30/2022 \n\n");
 		
 		System.out.println("B\t I\t N\t G\t O\t");
 		System.out.println("2\t 20\t 42\t 60\t 64\t");
