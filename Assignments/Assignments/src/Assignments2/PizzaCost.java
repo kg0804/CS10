@@ -36,7 +36,9 @@ public class PizzaCost
 }
 /* Screen Dump
 
-Enter the size of the pizza in inches:
-Total cost:
+Enter pizza diameter in inches:
+10
+The cost of the pizza is $6.75
+
 
  */
