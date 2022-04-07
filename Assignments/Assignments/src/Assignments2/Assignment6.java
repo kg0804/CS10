@@ -1,4 +1,18 @@
+
+
 package Assignments2;
+
+/*
+
+Program: Assignment6.java          Date: 04/07/2022
+
+
+Author: Karan Gill
+School: CHHS
+Course: Computer Science 10
+ 
+
+*/
 import java.util.*;
 public class Assignment6 
 {
@@ -34,3 +48,20 @@ System.out.println("Hello, your name is " + FirstName +" " + LastName +", you ar
 		
 }
 }
+
+/* Screen Dump
+
+What is your first name?
+Karan
+What is your last name?
+Gill
+What grade are you in?
+12
+What school do you attend?
+CHHS
+What is your favorite hobby?
+Soccer
+Hello, your name is Karan Gill, you are currently in grade 12 at CHHS. Your favorite hobby is Soccer
+
+
+ */
