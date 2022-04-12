@@ -1,3 +1,15 @@
+/*
+
+Program: Assignment9.java          Date: 04/11/2022
+
+
+Author: Karan Gill
+School: CHHS
+Course: Computer Science 10
+ 
+
+*/
+
 package Assignments2;
 
 import java.util.Scanner;
@@ -25,3 +37,13 @@ public class Assignment9
 }
 }
 
+/* Screen Dump
+
+14 / 4 = 3
+14 % 4 = 2
+
+4 / 14 = 0
+4 % 14 = 4
+
+
+ */

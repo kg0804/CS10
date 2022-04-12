@@ -40,9 +40,10 @@ public class Assignment8ThreeDigit
 
 Enter a three digit number
 385
-The first digit of the number is 3
-The second digit of the number is 8
-The third digit of the number is 5
+The hundreds-place digit is 3
+The tens-place digit is 8
+The ones-place digit is 5
+
 
 
  */

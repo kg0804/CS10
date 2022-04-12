@@ -40,8 +40,8 @@ public class Assignment8TwoDigits
 
 Enter a two digit number
 57
-The first digit of the number is 5
-The second digit of the number is 7
+The tens-place digit is 5
+The ones-place digit is 7
 
 
  */
