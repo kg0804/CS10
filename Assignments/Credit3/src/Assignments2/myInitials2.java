@@ -21,16 +21,16 @@ public class myInitials2
 	  
 	  
 	  
-	    System.out.println("*      *                    ******************");
-	    System.out.println("*    *                      *");
-	    System.out.println("*   *                       *");
-	    System.out.println("* *                         *");
-	    System.out.println("*                           *");
-	    System.out.println("*                           *       **********");
-	    System.out.println("*                           *                *");
-	    System.out.println("* *                         *                *");
-	    System.out.println("*   *                       *                *");
-	    System.out.println("*     *       .             ******************");
+	    System.out.println("*      *                    ******************");  //print first line
+	    System.out.println("*    *                      *");  //print second line
+	    System.out.println("*   *                       *"); //print third line
+	    System.out.println("* *                         *"); //print fourth line
+	    System.out.println("*                           *"); //print fifth line
+	    System.out.println("*                           *       **********"); //print sixth line
+	    System.out.println("*                           *                *"); //print seventh line
+	    System.out.println("* *                         *                *"); //print eighth line
+	    System.out.println("*   *                       *                *"); //print ninth line
+	    System.out.println("*     *       .             ******************"); //print tenth line
 	
     
    

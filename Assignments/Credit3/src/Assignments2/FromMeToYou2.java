@@ -19,14 +19,14 @@ public class FromMeToYou2
 	{
 	
 	    
-	System.out.println("From:Mr.Wilson");
-	System.out.println("Address: Acer Computer, Lab 314");
-	System.out.println("Date: March 30 2022\n");
+	System.out.println("From:Mr.Wilson"); // print first line
+	System.out.println("Address: Acer Computer, Lab 314"); //print second line
+	System.out.println("Date: March 30 2022\n"); //print third line and add a space
 	    
-	System.out.println("To: Karan Gill\n");
+	System.out.println("To: Karan Gill\n"); // print name
 	    
 	    
-	System.out.println("Message: Help! Im trapped inside a computer!"); 
+	System.out.println("Message: Help! Im trapped inside a computer!"); //print message
 	}
 } 
 

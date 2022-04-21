@@ -21,17 +21,17 @@ public class PizzaCost
 	{
 		   Scanner myObj = new Scanner(System.in);  // Create a Scanner object
 		   double userName;
-		    System.out.println("Enter pizza diameter in inches:");
-		    userName=myObj.nextDouble();
+		    System.out.println("Enter pizza diameter in inches:"); //user enters number
+		    userName=myObj.nextDouble(); // get number
 	
-    		double labor= 0.75;
-    		int rent= 1;
-    		double materials= 0.05 * userName * userName;
-    		double totalcost= rent + materials + labor;
+    		double labor= 0.75; //price of labor
+    		int rent= 1; //price of rent
+    		double materials= 0.05 * userName * userName; // price of materials used depending on size of pizza
+    		double totalcost= rent + materials + labor; // add up total cost
 		    
-    		String mytext= "The cost of the pizza is $";
-    		String newstring= mytext + totalcost;
-    		System.out.println(newstring);
+    		String mytext= "The cost of the pizza is $"; // add sentence to be printed
+    		String newstring= mytext + totalcost; // add sentence to be printed
+    		System.out.println(newstring); //print out price
     }
 }
 /* Screen Dump
