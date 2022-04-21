@@ -20,31 +20,31 @@ public class Assignment6
 	{
 		Scanner input = new Scanner(System.in);  // Create a Scanner object
 		String FirstName;
-		System.out.println("What is your first name?");
-		FirstName=input.next();
+		System.out.println("What is your first name?"); // user enters name
+		FirstName=input.next(); // grab name
 	
 		Scanner input1 = new Scanner(System.in);  // Create a Scanner object
 		String LastName;
-		System.out.println("What is your last name?");
-		LastName=input.next();
+		System.out.println("What is your last name?"); //user enters name
+		LastName=input.next(); // grab name
 	
 
 		Scanner input2 = new Scanner(System.in);  // Create a Scanner object
 		String Grade;
-		System.out.println("What grade are you in?");
-		Grade=input.next();
+		System.out.println("What grade are you in?"); //user enters age
+		Grade=input.next(); // grab age
 	
 		Scanner input3 = new Scanner(System.in);  // Create a Scanner object
 		String School;
-		System.out.println("What school do you attend?");
-		School=input.next();
+		System.out.println("What school do you attend?"); //user enters school
+		School=input.next(); // grab school name
 	
 		Scanner input4 = new Scanner(System.in);  // Create a Scanner object
 		String Hobby;
-		System.out.println("What is your favorite hobby?");
-		Hobby=input.next();
+		System.out.println("What is your favorite hobby?"); //user enters hobby
+		Hobby=input.next(); //grab hobby name
 	
-System.out.println("Hello, your name is " + FirstName +" " + LastName +", you are currently in grade " + Grade + " at " + School + ". Your favorite hobby is " + Hobby);
+System.out.println("Hello, your name is " + FirstName +" " + LastName +", you are currently in grade " + Grade + " at " + School + ". Your favorite hobby is " + Hobby); //print out entire sentence with strings
 		
 }
 }

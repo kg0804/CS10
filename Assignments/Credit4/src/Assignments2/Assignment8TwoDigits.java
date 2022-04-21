@@ -22,15 +22,15 @@ public class Assignment8TwoDigits
 	{
 	
 		Scanner userinput = new Scanner(System.in);  // Create a Scanner object
-		System.out.println("Enter a two digit number");
+		System.out.println("Enter a two digit number"); //user enters number
 		
-		int twodigits = userinput.nextInt();
+		int twodigits = userinput.nextInt(); // grab and store number
 		
-		int firstdigit = twodigits / 10;
-		int seconddigit = twodigits % 10;
+		int firstdigit = twodigits / 10; //isolate first digit
+		int seconddigit = twodigits % 10; //isolate second digit
 		
-		System.out.println("The tens-place digit is " + firstdigit);
-		System.out.println("The ones-place digit is " + seconddigit);
+		System.out.println("The tens-place digit is " + firstdigit); //print first digit
+		System.out.println("The ones-place digit is " + seconddigit); //print second digit
 		
 }
 }

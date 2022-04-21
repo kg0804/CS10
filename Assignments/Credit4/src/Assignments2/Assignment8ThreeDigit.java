@@ -21,18 +21,18 @@ public class Assignment8ThreeDigit
 	{
 	
 		Scanner userinput = new Scanner(System.in);  // Create a Scanner object
-		System.out.println("Enter a three digit number");
-		int threedigits = userinput.nextInt();
+		System.out.println("Enter a three digit number"); //user enters number
+		int threedigits = userinput.nextInt(); // grab and store number
 		
-		int firstdigit = threedigits / 100;
-		int seconddigit = (threedigits / 10) % 10;
-		int thriddigit = (threedigits % 10); 
+		int firstdigit = threedigits / 100; //isolate first digit
+		int seconddigit = (threedigits / 10) % 10; //isolate second digit
+		int thriddigit = (threedigits % 10); //isolate third digit
 		
 		
 	
-		System.out.println("The hundreds-place digit is " + firstdigit);
-		System.out.println("The tens-place digit is " + seconddigit);
-		System.out.println("The ones-place digit is " + thriddigit);
+		System.out.println("The hundreds-place digit is " + firstdigit); //print out first digit
+		System.out.println("The tens-place digit is " + seconddigit); //print out second digit
+		System.out.println("The ones-place digit is " + thriddigit); //print out third digit
 }
 }
 

@@ -17,21 +17,21 @@ public class Assignment5
 	public static void main(String[] args)
 	{
 
-double math= 79+3*(4+82-68)-7+19;
-String mytext= "79+3*(4+82-68)-7+19= ";
-String newstring= mytext + math;
-System.out.println(newstring+"\n");
+double math= 79+3*(4+82-68)-7+19; //calculate 
+String mytext= "79+3*(4+82-68)-7+19= "; // get sentence ready for print
+String newstring= mytext + math; // add strings together to print
+System.out.println(newstring+"\n"); // print out equation
 
 
-double math1= (179+21+10)/7+181;
-String mytext1="(179+21+10)/7+181= " ;
-String newstring1= mytext1 + math1;
-System.out.println(newstring1+"\n");
+double math1= (179+21+10)/7+181;  //calculate 
+String mytext1="(179+21+10)/7+181= " ; // get sentence ready for print
+String newstring1= mytext1 + math1;  // add strings together to print
+System.out.println(newstring1+"\n");  // print out equation
 
-double math2= 10389*56*11+2246;
-String mytext2="10389*56*11+2246= " ;
-String newstring2= mytext2 + math2;
-System.out.println(newstring2+"\n");
+double math2= 10389*56*11+2246; //calculate 
+String mytext2="10389*56*11+2246= " ; // get sentence ready for print
+String newstring2= mytext2 + math2;   // add strings together to print
+System.out.println(newstring2+"\n");  // print out equation
 
 
 }

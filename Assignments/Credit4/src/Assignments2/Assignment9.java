@@ -20,19 +20,19 @@ public class Assignment9
 	{
 	
 		Scanner userinput = new Scanner(System.in);  // Create a Scanner object
-		System.out.println("Enter a interger");
-		int firstint = userinput.nextInt();
+		System.out.println("Enter a interger"); //user enters number
+		int firstint = userinput.nextInt(); //grab and store number
 		
 		Scanner input = new Scanner(System.in);  // Create a Scanner object
-		System.out.println("Enter a second interger");
-		int secondint = userinput.nextInt();
+		System.out.println("Enter a second interger"); //user enters number
+		int secondint = userinput.nextInt(); //grab and store number
 		
-		System.out.println(firstint + " / " + secondint + " = " + firstint / secondint);
-		System.out.println(firstint + " % " + secondint + " = " + firstint % secondint + "\n");
+		System.out.println(firstint + " / " + secondint + " = " + firstint / secondint); // print out answer and calculate equation
+		System.out.println(firstint + " % " + secondint + " = " + firstint % secondint + "\n"); // print out answer and calculate equation
 	
 
-		System.out.println(secondint + " / " + firstint + " = " + secondint / firstint);
-		System.out.println(secondint + " % " + firstint + " = " + secondint % firstint + "\n");
+		System.out.println(secondint + " / " + firstint + " = " + secondint / firstint); // print out answer and calculate equation
+		System.out.println(secondint + " % " + firstint + " = " + secondint % firstint + "\n"); // print out answer and calculate equation
 	
 }
 }
