@@ -14,13 +14,30 @@ public class Assignment11 {
 		int seconddigit = (threedigits / 10) % 10;
 		int thirddigit = (threedigits % 10); 
 		
+		int max, min =0;
+		
 
-	 if (firstdigit < seconddigit ) {
-		 
-		} else {
-		  System.out.println("Good evening.");
-		}
+if(firstdigit < seconddigit && seconddigit < thirddigit)
+{
+	max = thirddigit;
+	min = firstdigit;
+
 }
+else if(firstdigit > seconddigit && seconddigit > thirddigit); 
+{
+	max = firstdigit;
+	min = thirddigit;
+
+}
+if (firstdigit < seconddigit && seconddigit > thirddigit);
+{
+	max= seconddigit;
+	min = firstdigit;
+	
+	
 }
 
+}
+	
+}
 
