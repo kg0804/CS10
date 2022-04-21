@@ -19,16 +19,16 @@ public class EvenOrOdd
 	public static void main(String[] args)
 	{
 		Scanner userinput = new Scanner(System.in);  // Create a Scanner object
-		System.out.println("Enter a interger");
-		int interger = userinput.nextInt();
+		System.out.println("Enter a interger"); //user enters number
+		int interger = userinput.nextInt(); //grab and store number
 	
-		int answer = interger % 2;
+		int answer = interger % 2; // calculate if number equals zero
 		
 		if (answer == 0) {
-			  System.out.println(interger + " is even");
+			  System.out.println(interger + " is even"); //print "its even" if number equals zero
 			}
 		else {
-			System.out.println(interger + " is odd");
+			System.out.println(interger + " is odd"); //print "its odd" if number does not equal zero
 		}
 }
 }
