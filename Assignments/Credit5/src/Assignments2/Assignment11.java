@@ -14,7 +14,7 @@ public class Assignment11 {
 		int seconddigit = (threedigits / 10) % 10; //isolate second digit
 		int thirddigit = (threedigits % 10); //isolate third digit
 		
-		System.out.println("First Digit: " + firstdigit + " Second Digit: " + seconddigit + " Third Digit: " + thirddigit);
+		System.out.println("First Digit: " + firstdigit + " Second Digit: " + seconddigit + " Third Digit: " + thirddigit + "\n");
 		
 		int max, min =0;
 		
@@ -24,27 +24,64 @@ if(firstdigit < seconddigit && seconddigit < thirddigit)
 	max = thirddigit;
 	min = firstdigit;
 	
-	System.out.println(" Largest Number: "+ max + "Smallest Number :" + min);
+	System.out.println("Largest Number: "+ max + " Smallest Number : " + min);
 
 }
-else if(firstdigit > seconddigit && seconddigit > thirddigit); 
+else if(firstdigit > seconddigit && seconddigit > thirddigit)
 {
 	max = firstdigit;
 	min = thirddigit;
 
-	System.out.println(" Largest Number: "+ max + "Smallest Number :" + min);
+	System.out.println("Largest Number: "+ max + " Smallest Number : " + min + "\n");
 }
-if (firstdigit < seconddigit && seconddigit > thirddigit);
+else if (firstdigit < seconddigit && seconddigit > thirddigit)
 {
 	max= seconddigit;
 	min = firstdigit;
 	
-	System.out.println(" Largest Number: "+ max + "Smallest Number :" + min);
-	
-	
+	System.out.println("Largest Number: "+ max + " Smallest Number : " + min + "\n");
+
 }
+
+else if (firstdigit < seconddigit && seconddigit > thirddigit && firstdigit > thirddigit)
+{
+	max= seconddigit;
+	min = thirddigit;
+	
+	System.out.println("Largest Number: "+ max + " Smallest Number : " + min + "\n");
+
+}
+
+else if (firstdigit > seconddigit && seconddigit < thirddigit)
+{
+	max= thirddigit;
+	min = seconddigit;
+	
+System.out.println("Largest Number: "+ max + " Smallest Number : " + min + "\n");
+
+}
+
+else System.out.println("Wrong Input, try agian"); 
+{
+}
+
+int add = firstdigit + seconddigit + thirddigit;
+System.out.println("The sum of the three digit is " + add);
+
+int prdc = firstdigit * seconddigit * thirddigit; 
+System.out.println("The product of the three digits is " + prdc);
+
+int average = (firstdigit + seconddigit + thirddigit) / 3;
+System.out.println("The average of the three digits is " + average);
+
+
+}
+
+
+
+
 
 }
 	
-}
+
 
