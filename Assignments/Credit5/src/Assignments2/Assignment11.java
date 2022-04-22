@@ -1,3 +1,14 @@
+/*
+
+Program: Assignment11.java          Date: 04/12/2022
+
+
+Author: Karan Gill
+School: CHHS
+Course: Computer Science 10
+ 
+
+*/
 package Assignments2;
 
 import java.util.Scanner;
@@ -83,5 +94,21 @@ System.out.println("The average of the three digits is " + average);
 
 }
 	
+
+/* Screen Dump
+
+Enter a any three digits
+621
+First Digit: 6 Second Digit: 2 Third Digit: 1
+
+Largest Number: 6 Smallest Number : 1
+
+The sum of the three digit is 9
+The product of the three digits is 12
+The average of the three digits is 3
+
+
+
+ */
 
 
