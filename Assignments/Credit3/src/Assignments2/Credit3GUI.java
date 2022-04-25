@@ -11,13 +11,14 @@ import java.awt.Font;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.JComboBox;
+import javax.swing.DefaultComboBoxModel;
 
 public class Credit3GUI {
 
 	private JFrame frame;
 	private JTextField FNT;
 	private JTextField LMT;
-	private JTextField AGT;
 
 	/**
 	 * Launch the application.
@@ -76,15 +77,10 @@ public class Credit3GUI {
 		panel.add(LMT);
 		LMT.setColumns(10);
 		
-		JLabel AG = new JLabel("Age");
-		AG.setFont(new Font("SimSun", Font.PLAIN, 13));
-		AG.setBounds(10, 115, 45, 14);
-		panel.add(AG);
-		
-		AGT = new JTextField();
-		AGT.setBounds(83, 112, 86, 20);
-		panel.add(AGT);
-		AGT.setColumns(10);
+		JLabel GD = new JLabel("Grade");
+		GD.setFont(new Font("SimSun", Font.PLAIN, 13));
+		GD.setBounds(10, 115, 45, 14);
+		panel.add(GD);
 		
 		
 		
@@ -95,9 +91,8 @@ public class Credit3GUI {
 			{
 				String FN = FNT.getText();
 				String LN = LMT.getText();
-				String AG = AGT.getText();
-	
-	
+
+				
 			}
 		});
 		SB.setFont(new Font("SimSun", Font.BOLD, 13));
@@ -111,7 +106,6 @@ public class Credit3GUI {
 			{
 			FNT.setText(" ");
 			LMT.setText(" ");	
-			AGT.setText(" ");	
 			
 			}
 			
@@ -121,9 +115,15 @@ public class Credit3GUI {
 		RS.setBounds(10, 187, 89, 23);
 		panel.add(RS);
 		
-		JPanel panel_1 = new JPanel();
-		panel_1.setBounds(10, 252, 475, 119);
-		panel.add(panel_1);
+		JPanel Dis = new JPanel();
+		Dis.setBounds(10, 252, 475, 119);
+		panel.add(Dis);
+		
+		JComboBox G2 = new JComboBox();
+		G2.setModel(new DefaultComboBoxModel(new String[] {"10", "11", "12"}));
+		G2.setBounds(83, 112, 111, 22);
+		panel.add(G2);
+		
 		
 	
 	}
