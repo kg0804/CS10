@@ -1,3 +1,16 @@
+/*
+
+Program: Assignment12.java          Date: 04/12/2022
+
+
+Author: Karan Gill
+School: CHHS
+Course: Computer Science 10
+ 
+
+*/
+
+
 package Assignments2;
 
 import java.util.Scanner;
@@ -90,3 +103,13 @@ else switch (grade)  //print letter grade based on user input
 
 }
 }
+
+/* Screen Dump
+
+Enter a grade
+100
+Your grade is A+
+
+
+
+ */
