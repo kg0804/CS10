@@ -1,3 +1,15 @@
+/*
+
+Program: Assignment14.java          Date: 04/26/2022
+
+
+Author: Karan Gill
+School: CHHS
+Course: Computer Science 10
+ 
+
+*/
+
 package Assignments2;
 
 import java.util.Scanner;
@@ -40,4 +52,12 @@ public class Assignment14
 }
 }
 
+/* Screen Dump
+
+How old are you?
+5
+You are a toddler
+
+
+ */
 
