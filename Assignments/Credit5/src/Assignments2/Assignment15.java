@@ -84,7 +84,7 @@ public static void main(String[] args)
 		 
 		if ( answer4 == useranswer4) // check answer
 		{
-			System.out.println("Correct!");
+			System.out.println("Correct! Well done!");
 		}
 		else System.out.println("Wrong, try again");
 		 break; // end case
