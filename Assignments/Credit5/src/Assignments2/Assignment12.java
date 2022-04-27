@@ -37,42 +37,42 @@ else switch (grade)  //print letter grade based on user input
 	  case 53:
 	  case 54:
 	    System.out.println("Your grade is D"); //print letter grade based on user input
-	    break; 
+	    break; // end case
 	  case 55:
 	  case 56:
 	  case 57:
 	  case 58:
 	  case 59:
 		System.out.println("Your grade is D+"); //print letter grade based on user input
-		    break; 
+		    break; // end case
 	  case 60:
 	  case 61:
 	  case 62:
 	  case 63:
 	  case 64:
 		System.out.println("Your grade is C"); //print letter grade based on user input
-		    break;
+		    break; // end case
 	  case 65:
 	  case 66:
 	  case 67:
 	  case 68:
 	  case 69:
 		System.out.println("Your grade is C+"); //print letter grade based on user input
-		    break;
+		    break; // end case
 	  case 70:
 	  case 71:
 	  case 72:
 	  case 73:
 	  case 74:
 		System.out.println("Your grade is B"); //print letter grade based on user input
-		    break;
+		    break; // end case
 	  case 75:
 	  case 76:
 	  case 77:
 	  case 78:
 	  case 79:
 		System.out.println("Your grade is B+"); //print letter grade based on user input
-		    break;
+		    break; // end case
 	  case 80:
 	  case 81:
 	  case 82:
@@ -84,7 +84,7 @@ else switch (grade)  //print letter grade based on user input
 	  case 88:
 	  case 89:
 		System.out.println("Your grade is A"); //print letter grade based on user input
-		    break;
+		    break; // end case
 	  case 90:
 	  case 91:
 	  case 92:
@@ -97,7 +97,7 @@ else switch (grade)  //print letter grade based on user input
 	  case 99:
 	  case 100:
 		System.out.println("Your grade is A+"); //print letter grade based on user input
-		    break; 
+		    break; // end case
 
 }
 
