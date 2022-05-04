@@ -1,3 +1,15 @@
+/*
+
+Program: JavaProject.java          Date: 05/04/2022
+
+
+Author: Karan Gill
+School: CHHS
+Course: Computer Science 10
+ 
+
+*/
+
 package Assignments2;
 
 import java.util.Scanner;
@@ -134,3 +146,20 @@ public class JavaProject
 		
 }
 }
+
+/* Screen Dump
+
+Enter a postion from 1-5 in the Toronto Raptors starting line up
+5
+Enter the exact number of points Pascal Siakam averaged in the 2021-2022 season 
+
+22.8
+Correct! This season Pascal Siakam averaged 22.8 points per game. 
+
+Do you want tickets! Enter the amount of tickets you want.
+2
+Price of each ticket is $175
+Total: $350.0
+
+
+ */
