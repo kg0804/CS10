@@ -50,19 +50,19 @@ public class Assignment16GUI {
 		
 		JPanel panel = new JPanel();
 		panel.setForeground(Color.RED);
-		panel.setBackground(Color.BLACK);
+		panel.setBackground(Color.ORANGE);
 		frame.getContentPane().add(panel, BorderLayout.CENTER);
 		panel.setLayout(null);
 		
 		JLabel lblNewLabel = new JLabel("Number Guessing Game");
-		lblNewLabel.setForeground(Color.CYAN);
-		lblNewLabel.setBackground(Color.YELLOW);
+		lblNewLabel.setForeground(new Color(51, 0, 102));
+		lblNewLabel.setBackground(Color.ORANGE);
 		lblNewLabel.setFont(new Font("Rockwell Extra Bold", Font.BOLD, 15));
 		lblNewLabel.setBounds(100, 11, 240, 19);
 		panel.add(lblNewLabel);
 		
 		JLabel lblGuessANumber = new JLabel("Guess a Number between 1 and 20");
-		lblGuessANumber.setForeground(Color.MAGENTA);
+		lblGuessANumber.setForeground(new Color(51, 0, 102));
 		lblGuessANumber.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		lblGuessANumber.setBounds(10, 74, 208, 14);
 		panel.add(lblGuessANumber);
@@ -74,13 +74,13 @@ public class Assignment16GUI {
 		text.setColumns(10);
 		
 		JLabel Dis = new JLabel("");
-		Dis.setForeground(Color.PINK);
+		Dis.setForeground(new Color(51, 0, 102));
 		Dis.setBounds(-1, 166, 397, 60);
 		panel.add(Dis);
 		
 		JButton Submit = new JButton("Submit");
-		Submit.setForeground(Color.CYAN);
-		Submit.setBackground(Color.RED);
+		Submit.setForeground(Color.WHITE);
+		Submit.setBackground(new Color(0, 102, 102));
 		Submit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) 
 			{
@@ -104,8 +104,8 @@ public class Assignment16GUI {
 		panel.add(Submit);
 		
 		JButton Reset = new JButton("Reset");
-		Reset.setForeground(Color.CYAN);
-		Reset.setBackground(Color.RED);
+		Reset.setForeground(Color.WHITE);
+		Reset.setBackground(new Color(0, 102, 102));
 		Reset.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e)
 			{
